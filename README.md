@@ -1,4 +1,3 @@
-# DCF-Model-Infosys
 # Infosys - DCF Valuation Model
 
 A DCF valuation model for Infosys, built primarily in Excel, with Python
