@@ -6,7 +6,7 @@ assumptions, the model forecasts 5 years of unlevered free cash flow,
 computes WACC via CAPM, discounts everything back, and outputs an implied
 share price with a BUY / HOLD / SELL call.
 
-## What's in this repo
+## What's in this repositary
 
 ```
 dcf-project/
