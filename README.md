@@ -60,7 +60,7 @@ to another tab, yellow fill = review/refresh before trusting the output.
 | Equity risk premium | 6.5% | India country ERP estimate - **refresh before real use** |
 | Beta | 0.75 | Approximate - **recompute or refresh before real use** |
 
-## Known limitations (
+## Known limitations 
 
 - **No sensitivity table.** The model outputs one point estimate. A WACC ×
   terminal-growth grid would show how fragile that estimate is - a natural
@@ -88,7 +88,7 @@ Upside/Downside  : 11.6%
 Recommendation   : HOLD
 ```
 
-**Execution Tips**
+## **Execution Tips**
 
 ## How to refresh the data
 
