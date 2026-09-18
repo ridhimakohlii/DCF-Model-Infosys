@@ -88,7 +88,7 @@ Upside/Downside  : 11.6%
 Recommendation   : HOLD
 ```
 
-## **Execution tips**
+## **Execution tips:**
 
 ## How to refresh the data
 
