@@ -6,7 +6,9 @@ assumptions, the model forecasts 5 years of unlevered free cash flow,
 computes WACC via CAPM, discounts everything back, and outputs an implied
 share price with a BUY / HOLD / SELL call.
 
-## What's in this repositary
+**Result:** Implied price of ₹1,227.91 vs. ₹1,100 market price → 11.6% upside → HOLD recommendation
+
+## What's in this repository
 
 ```
 dcf-project/
@@ -58,7 +60,7 @@ to another tab, yellow fill = review/refresh before trusting the output.
 | Equity risk premium | 6.5% | India country ERP estimate - **refresh before real use** |
 | Beta | 0.75 | Approximate - **recompute or refresh before real use** |
 
-## Known limitations (v1 - deliberately out of scope)
+## Known limitations (
 
 - **No sensitivity table.** The model outputs one point estimate. A WACC ×
   terminal-growth grid would show how fragile that estimate is - a natural
@@ -72,6 +74,21 @@ to another tab, yellow fill = review/refresh before trusting the output.
   with the precise figures from the annual report before relying on this.
 - **Manual refresh.** Historicals are pasted from a Python pull, not
   live-linked - the workbook doesn't update itself.
+
+  ## Output 
+
+```
+Infosys (INFY.NS) - DCF Summary
+---------------------------------------------
+Enterprise Value : ₹503,379 Cr
+Equity Value     : ₹508,357 Cr
+Implied Price    : ₹1,227.91
+Current Price    : ₹1,100.00
+Upside/Downside  : 11.6%
+Recommendation   : HOLD
+```
+
+**Execution Tips**
 
 ## How to refresh the data
 
@@ -98,15 +115,3 @@ Upside/Downside, and the Recommendation straight from the `DCF` tab.
 formulas have cached values - `openpyxl` reads cached values, it doesn't
 compute formulas itself.)
 
-## Sample output (as of this build)
-
-```
-Infosys (INFY.NS) - DCF Summary
----------------------------------------------
-Enterprise Value : ₹503,379 Cr
-Equity Value     : ₹508,357 Cr
-Implied Price    : ₹1,227.91
-Current Price    : ₹1,100.00
-Upside/Downside  : 11.6%
-Recommendation   : HOLD
-```
